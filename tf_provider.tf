@@ -2,7 +2,7 @@
 # TERRAFORM CONFIG
 #############################################################################
 provider "azurerm" {}
-
+features {}
 
 
 provider "http" {}
