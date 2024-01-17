@@ -74,6 +74,11 @@ output "sas"{
   value=data.azurerm_storage_account_sas.existing.sas
   sensitive = true
 }
+
+output "files"{
+  value=local_file.downloaded_blob.content
+ 
+}
   
   
 
